@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "Titulos";
+    src: url("../fonts/AlegreyaSansSC-Regular.ttf"), url("../fonts/AlegreyaSansSC-Regular.eot"), url("../fonts/AlegreyaSansSC-Regular.woff"), url("../fonts/AlegreyaSansSC-Regular.woff2"), url("../fonts/AlegreyaSansSC-Regular.svg");
+}
+@font-face{
+    font-family: "Parrafos";
+    src: url("../fonts/OpenSans-CondLight.ttf"), url("../fonts/OpenSans-CondLight.eot"), url("../fonts/OpenSans-CondLight.woff"), url("../fonts/OpenSans-CondLight.woff2"), url("../fonts/OpenSans-CondLight.svg");
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Parrafos" !important;
+    background-color: #fff;
+}
+
+/* maneja el fondo login */
+.full-cover-background{
+    background-attachment: fixed;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*Controles de formularios material desing =====*/
+.group-material{ 
+  position:relative; 
+  margin-bottom:45px; 
+}
+
+/* col-xs */
+@media (max-width: 767px) {
+        
+    .form-container{ width: 97%; max-width: 370px;}  
+     form.form_SRCB{ padding: 7px;}
+}
+
+/* col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    .form-container{ width: 370px; }
+}
+
+/* col-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .form-container{ width: 370px; }
+}
+
+/* col-lg */
+@media (min-width: 1200px) {
+    .form-container{ width: 370px; }
+}
